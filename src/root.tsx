@@ -1,7 +1,6 @@
 import { createContext, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { isItemIdInCart } from './util/isItemIdInCart';
-import { priceToFormatted } from './util/priceToFormatted';
 
 export type CartItemType = {
   id: string;
