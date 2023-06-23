@@ -4,10 +4,12 @@ import ShopPage from './pages/shop-page';
 import { Root } from './root';
 import { MainLayout } from './layouts/main';
 import CartPage from './pages/cart-page';
+import ErrorPage from './pages/error-page';
 
 const router = createBrowserRouter([
   {
     element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
         element: <MainLayout />,
